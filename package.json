@@ -5,6 +5,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "dev:patient": "turbo run dev --filter=@thrivelle/patient-portal",
+    "dev:clinician": "turbo run dev --filter=@thrivelle/clinician-dashboard",
+    "dev:docs": "turbo run dev --filter=@thrivelle/docs",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",

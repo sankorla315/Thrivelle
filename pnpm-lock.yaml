@@ -134,6 +134,9 @@ importers:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -143,12 +146,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/analytics-events:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -158,12 +167,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/auth:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -173,12 +188,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/care-activities:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -188,12 +209,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/care-navigation:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -203,12 +230,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/care-plans:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -218,12 +251,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/clinician-notes:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -233,12 +272,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/consent:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -248,12 +293,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/forms:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -263,12 +314,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/milestone-matrix:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -278,12 +335,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/notifications:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -293,12 +356,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/permissions:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -308,12 +377,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/progress:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -323,12 +398,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/provider-discovery:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -338,12 +419,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/shared-types:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -353,12 +440,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/task-engine:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -368,12 +461,18 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   packages/ui:
     devDependencies:
       '@thrivelle/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
+      '@thrivelle/test-config':
+        specifier: workspace:*
+        version: link:../../tooling/test-config
       '@thrivelle/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
@@ -383,6 +482,9 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vitest:
+        specifier: ^3.2.7
+        version: 3.2.7(@types/node@20.19.43)(jiti@2.7.0)(lightningcss@1.32.0)
 
   tooling/eslint-config:
     dependencies:
