@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@thrivelle/eslint-config": "workspace:*",
     "@thrivelle/typescript-config": "workspace:*",
+    "eslint": "^9.0.0",
     "typescript": "^5.7.0"
   }
 }
