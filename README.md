@@ -1,5 +1,5 @@
 # Thrivelle
-Open Source Behavioral Health Engagement Framework, with a small demo app priving how the framwork can be used.
+Open Source Behavioral Health Engagement Framework, with a small demo app proving how the framwork can be used.
 
 ## Testing
 
