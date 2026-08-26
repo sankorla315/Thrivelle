@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "examples/*"
+  - "tooling/*"
+
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+  supabase: true
+
+catalog:
+  typescript: ^5.7.0
+  "@types/node": ^22.10.0

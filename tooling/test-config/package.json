@@ -1,0 +1,9 @@
+{
+  "name": "@thrivelle/test-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./vitest.base.ts",
+  "devDependencies": {
+    "vitest": "^3.2.7"
+  }
+}

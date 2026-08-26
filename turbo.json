@@ -1,0 +1,25 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "globalDependencies": ["tooling/typescript-config/base.json"],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/*", "!.next/cache/", "dist/", ".tsbuildinfo"]
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck"],
+      "outputs": ["*.tsbuildinfo"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    }
+  }
+}
